@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:whatever="http://schemas.android.com/apk/res/lk.zmessenger.consumerwatchconsummer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backbroud"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".NewComplainActivity" >
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/dropdown" />
+
+    <com.andreabaccega.widget.FormEditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/spinner1"
+        android:layout_alignRight="@+id/spinner1"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:hint="Title"
+        android:padding="5dp"
+        android:singleLine="true"
+        whatever:testType="nocheck" >
+
+        <requestFocus />
+    </com.andreabaccega.widget.FormEditText>
+
+    <com.andreabaccega.widget.FormEditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="165dp"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Description"
+        android:padding="5dp"
+        whatever:testType="nocheck" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText2"
+        android:layout_margin="10dp"
+        android:background="@drawable/buttonevent"
+        android:onClick="onclicknew"
+        android:text="Send" android:textColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string translatable="false" name="app_name">Consumer Watch</string>
+    <string translatable="false" name="hello_world">Hello world!</string>
+    <string translatable="false" name="menu_settings">Settings</string>
+    <string translatable="false" name="title_activity_market">Market</string>
+    <string translatable="false" name="slectmaket">Select Market</string>
+    <string translatable="false" name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string translatable="false" name="already_registered">Device is already registered on server.</string>
+    <string translatable="false" name="gcm_registered">From GCM: device successfully registered!</string>
+    <string translatable="false" name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string translatable="false" name="gcm_message">From GCM: you got message!</string>
+    <string translatable="false" name="gcm_error">From GCM: error (%1$s).</string>
+    <string translatable="false" name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string translatable="false" name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string translatable="false" name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string translatable="false" name="server_registered">From Demo Server: successfully added device!</string>
+    <string translatable="false" name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string translatable="false" name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string translatable="false" name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string translatable="false" name="options_register">Register</string>
+    <string translatable="false" name="options_unregister">Unregister</string>
+    <string translatable="false" name="options_clear">Clear</string>
+    <string translatable="false" name="options_exit">Exit</string>
+    <string translatable="false" name="title_activity_category_grid">Category</string>
+    <string translatable="false" name="action_settings">Settings</string>
+    <string translatable="false" name="selectcategory">Select Category</string>
+    <string translatable="false" name="title_activity_product">Products</string>
+    <string translatable="false" name="title_activity_complain">Complain</string>
+    <string translatable="false" name="title_activity_complain_register">Register for Complain</string>
+    <string translatable="false" name="title_activity_shopping_list">Shopping List</string>
+    <string translatable="false" name="fulname">Full Name</string>
+    <string translatable="false" name="error_field_required">This field is required</string>
+    <string translatable="false" name="error_invalid_password">This NIC is incorrect</string>
+    <string translatable="false" name="title_activity_new_complain">New Complain</string>
+    <string translatable="false" name="productitem">Please note that the above prices are the average price per kg and certain prices are per unit (E.g. Egg/Coconut)</string>
+
+</resources>

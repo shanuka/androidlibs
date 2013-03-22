@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:whatever="http://schemas.android.com/apk/res/lk.zmessenger.consumerwatchconsummer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backbroud"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ComplainRegisterActivity" >
+
+    <EditText
+        android:id="@+id/editTextFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:hint="@string/fulname"
+        android:padding="5dp"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextNIC"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/editTextFullName"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/editTextAddress"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:hint="NIC"
+        android:maxLength="10"
+        android:padding="5dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="165dp"
+        android:layout_alignLeft="@+id/editTextFullName"
+        android:layout_alignRight="@+id/editTextFullName"
+        android:layout_below="@+id/editTextNIC"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Address"
+        android:maxLines="3"
+        android:padding="5dp"
+        android:paddingTop="5dp"
+        android:singleLine="false" />
+
+    <com.andreabaccega.widget.FormEditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/editTextAddress"
+        android:layout_alignRight="@+id/editTextAddress"
+        android:layout_below="@+id/editTextAddress"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        android:singleLine="true"
+        whatever:testType="email" >
+    </com.andreabaccega.widget.FormEditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/editTextEmail"
+        android:layout_alignRight="@+id/editTextEmail"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonevent"
+        android:maxLength="10"
+        android:onClick="onClickSubmit"
+        android:text="Submit" />
+
+</RelativeLayout>

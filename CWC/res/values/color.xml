@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backbroud" >#043a84</color>
+    <color name="white" >#eee</color>
+    <color name="even">#c9d7ec</color>
+     <color name="odd">#fff</color>
+     <color name="black">#000</color>
+     <color name="red">#ef4023</color>
+    
+</resources>
